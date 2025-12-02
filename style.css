@@ -748,19 +748,20 @@ header {
   }
      .home-flex .home {
     padding-left: 2rem;
+    margin-top: -42rem;
 }
 }
 
 @media screen and (max-width: 358px) {
   .gallery .gallery-1 img {
-    padding: 2rem;
+    padding-left: 1.7rem;
     border-radius: 1rem;
   }
      .our-contact .our-contact-1 .our-contact-2{
     padding-left: 3rem;
   }
-  .our-contact .our-form {
-    padding-left: 1rem;
+ .our-form input{
+    padding-left: -4rem;
   }
    .about-flex .pic img{
     padding: 3rem;
