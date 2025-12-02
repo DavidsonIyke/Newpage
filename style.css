@@ -41,6 +41,7 @@ header {
   font-size: 1.4rem;
   cursor: pointer;
   display: none;
+  padding-right: 50px;
 }
 
 .navbar {
@@ -368,6 +369,11 @@ header {
 .our-contact-2:nth-child(3) {
   margin-left: -23.1rem;
 }
+
+.our-contact-2:nth-child(4) {
+  margin-left: -9.3rem;
+}
+
 .our-contact-2:nth-child(5) {
   margin-left: -16rem;
 }
@@ -377,7 +383,7 @@ header {
 }
 
 .our-contact-2:nth-child(7) {
-  margin-left: -17rem;
+  margin-left: -16.8rem;
 }
 .our-contact-2 p {
   margin-left: 1rem;
@@ -720,23 +726,54 @@ header {
 
 @media screen and (max-width: 440px) {
   .gallery .gallery-1 img {
-    padding: 3rem;
+    padding: 2rem;
+    border-radius: 1rem;
   }
 
-  .our-contact .our-contact-1 {
-    padding: 2rem;
+  .our-contact .our-contact-1  .our-contact-2{
+    padding-left: 2rem;
   }
   .our-contact .our-form {
-    padding: 1.5rem;
+    padding-left: 1rem;
   }
+  .about-flex .pic img{
+    padding: 3rem;
+  }
+  .logo{
+    padding: 0 40px;
+    font-size: 1.2rem;
+  }
+  .image img{
+    padding-right: 5rem;
+  }
+     .home-flex .home {
+    padding-left: 2rem;
+}
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 358px) {
   .gallery .gallery-1 img {
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+     .our-contact .our-contact-1 .our-contact-2{
+    padding-left: 3rem;
+  }
+  .our-contact .our-form {
+    padding-left: 1rem;
+  }
+   .about-flex .pic img{
     padding: 3rem;
   }
-
-  .our-contact .our-form {
-    padding: 1.5rem;
+  .logo{
+    padding: 0 40px;
+    font-size: 1.5rem;
   }
+  .image img{
+    padding-right: 5rem;
+  }
+   .home-flex .home {
+    padding-left: 2rem;
+}
+
 }
